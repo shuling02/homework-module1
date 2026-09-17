@@ -347,3 +347,7 @@ legend {
     );
     padding: 10px 0;
 }
+
+#clock {
+    color: #125688;
+}
