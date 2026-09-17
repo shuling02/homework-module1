@@ -339,6 +339,7 @@ legend {
     font-family: Arial, Helvetica, sans-serif;
     color: #3a3a3a;
     text-align: center;
+    font-size: 12px;
     background: linear-gradient(
         0deg,
         rgba(251,215,139,1) 0%,
