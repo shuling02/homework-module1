@@ -5,7 +5,8 @@ header {
 }
 #home header {
     background: no-repeat lightgrey url(images/cliff_ocean.jpg);
-    background-size: 1500px;
+    background-size: cover;
+    background-position: center;
 }
 
 #cliffs header {
@@ -330,4 +331,18 @@ legend {
     color: #fff;
     border: none;
     padding: 0.5em 2em;
+}
+
+#timeofday {
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+    text-align: center;
+    background: linear-gradient(
+        0deg,
+        rgba(251,215,139,1) 0%,
+        rgba(118,213,245,1) 100%
+    );
+    padding: 10px 0;
 }
