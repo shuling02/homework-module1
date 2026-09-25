@@ -320,6 +320,7 @@ legend {
     resize: both;
 }
 
+/*
 .button {
     width: 600px;
     text-align: right;
@@ -332,6 +333,8 @@ legend {
     border: none;
     padding: 0.5em 2em;
 }
+
+*/
 
 #timeofday {
     width: 100%;
@@ -350,4 +353,13 @@ legend {
 
 #clock {
     color: #125688;
+}
+
+form .button input {
+    width: 8em;
+    height: 2.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
 }
