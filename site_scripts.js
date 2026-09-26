@@ -27,3 +27,8 @@ for (var i = 0; i < 6; i++){
 }
 
 document.getElementById("partners").innerHTML = imageList;
+
+var code = ' ';
+var getCode = ' ';
+var btnvalue;
+var str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxtz0123456789@#$';

@@ -320,13 +320,6 @@ legend {
     resize: both;
 }
 
-/*
-.button {
-    width: 600px;
-    text-align: right;
-    margin-top: 0.5em;
-}
-
 .button input {
     background-color: #4977D1;
     color: #fff;
@@ -334,7 +327,7 @@ legend {
     padding: 0.5em 2em;
 }
 
-*/
+
 
 #timeofday {
     width: 100%;
@@ -362,4 +355,25 @@ form .button input {
     font-weight: bold;
     color: #ffffff;
     border: none;
+}
+
+.button {
+    width: 600px;
+    text-align: right;
+    margin-top: 0.5em;
+}
+
+.randomcode {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1em;
+}
+
+.randomcode p {
+    background-color: #ddd;
+    padding: 8px 12px;
+    margin: 0;
+    font-size: 0.75em;
 }
