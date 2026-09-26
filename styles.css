@@ -358,7 +358,7 @@ form .button input {
 }
 
 .button {
-    width: 600px;
+    width: 100%;
     text-align: right;
     margin-top: 0.5em;
 }
