@@ -377,3 +377,8 @@ form .button input {
     margin: 0;
     font-size: 0.75em;
 }
+
+.selected {
+    background-color: #9ed034;
+    color: white;
+}
