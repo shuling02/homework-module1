@@ -42,7 +42,9 @@ function evaluateCode(){
 
     if(charset1.length == charset2.length && charset1 == charset2){
         disableButton(false);
+    } else {
+        disableButton(true);
     }
 }
 
-disableButton();
+disableButton(true);

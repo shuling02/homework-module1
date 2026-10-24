@@ -3,15 +3,21 @@ header {
     min-height: 400px;
     padding-top: 3em;
 }
-#home header {
-    background: no-repeat lightgrey url(images/cliff_ocean.jpg);
-    background-size: cover;
-    background-position: center;
+
+#home {
+    background-color: white;
+    background-image: url("images/cliff_ocean.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-position: center top;
 }
 
-#cliffs header {
-    background: no-repeat lightgrey url(images/forest_cliff.jpg);
-    background-size: 1500px;
+#cliffs {
+    background-color: white;
+    background-image: url("images/forest_cliff.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-position: center top;
 }
 
 #cliffs main h1 {
@@ -48,18 +54,24 @@ header {
     text-align: left;
 }
 
-#activities header {
-    background: no-repeat lightgrey url(images/runfly.jpg);
-    background-size: 1500px;
+#activities {
+    background-color: white;
+    background-image: url("images/runfly.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-position: center top;
 }
 
-#contact header {
-    background: no-repeat lightgrey url(images/cliff_rock.jpg);
-    background-size: 1500px;
+#contact {
+    background-color: white;
+    background-image: url("images/cliff_rock.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-position: center top;
 }
 
 .main-header {
-    position: relative;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -70,6 +82,8 @@ header {
     min-height: 100px;
     margin: 2em auto 0;
     padding: 0;
+    top: 0;
+    z-index: 1030;
 }
 
 .main-header .logo {
@@ -92,6 +106,7 @@ header {
     margin-left: auto;
     padding: 0;
     font-weight: 400;
+    background-color: rgba(38, 41, 61, 0.7);
 }
 
 .main-menu .navbar-nav {
@@ -112,7 +127,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #888;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 0 15px;
     min-height: 100px;
@@ -360,13 +375,6 @@ legend {
     resize: vertical;
 }
 
-.button input {
-    background-color: #4977D1;
-    color: #fff;
-    border: none;
-    padding: 0.5em 2em;
-}
-
 
 
 #timeofday {
@@ -388,19 +396,18 @@ legend {
     color: #125688;
 }
 
-form .button input {
-    width: 8em;
-    height: 2.5em;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #ffffff;
-    border: none;
-}
 
 .button {
     width: 100%;
     text-align: right;
     margin-top: 0.5em;
+}
+
+form .button button {
+    min-width: 8em;
+    height: 2.5em;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 .randomcode {
