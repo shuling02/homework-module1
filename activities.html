@@ -67,7 +67,7 @@
             </p>
             
             <div class="table-responsive">
-                <table>
+                <table class="table">
                     <caption>Activities at the Cliffs</caption>
                     <thead>
                         <tr>
@@ -117,14 +117,35 @@
                     </tbody>
                 </table>
             </div>
-            
-            <div id="displaySelected">
-                <div id="result">
-                    <h4>My selected activities to enquire:</h4>
-                </div>
-                <div id="sendinfo">
-                    <input type="email" placeholder="johndoe@gmail.com">
-                    <button>Get Info</button>
+
+            <div class="modal fade" id="activityModal" tabindex="-1" role="dialog"
+                aria-labelledby="activityModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+
+                        
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="activityModalLabel">
+                                My selected activities to enquire:
+                            </h5>
+                        </div>
+
+                        <div class="modal-body" id="activityModalBody">
+                            <!-- Selected activities will appear here -->
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success"
+                                    data-dismiss="modal">
+                                Back to Activities
+                            </button>
+
+                            <button type="button" class="btn btn-primary" id="getInfo">
+                                Get Info
+                            </button>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </main>
